@@ -1,0 +1,22 @@
+brk #ends program
+prt ADDR #prints content from an address, replaces ".s" with a space
+saa ADDR #sets an address to register a
+sab ADDR #sets an address to register b
+sav ADDR #sets an address to register v
+ada ADDR #sets register a to an address
+adv ADDR #sets register v to an address
+adb ADDR #sets register b to an address
+sra VALUE #sets register a to a value
+srv VALUE #sets register v to a value
+srb VALUE #sets register b to a value
+ica VALUE #increments register a by a value
+icv VALUE #increments register v by a value
+icb VALUE #increments register b by a value
+jpp VALUE #sets register a to the next prgm counter, then skips ahead VALUE
+jmp ADDR #sets prgm counter to an address
+jmc ADDR #sets prgm counter to an address IF register c is 1
+cmp TYPE #enum of >, <, >=, <=, and ==, compares register v to register b. Sets register c to the result.
+mul ADDR #multiplies an address by register a
+add ADDR #adds an address with register a
+sub ADDR #subtracts an address by register a
+div ADDR #divides an address by register a
