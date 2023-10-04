@@ -7,6 +7,6 @@ An assembly knockoff, uses minimal instructions, although somehow turing complet
 - printing to screen
 - supports looping, if, while, etc
 
-#How to use
+# How to use
 - Create a file called "prgm.txt", then add code as described in "instructions.txt"
 - Run main.py
